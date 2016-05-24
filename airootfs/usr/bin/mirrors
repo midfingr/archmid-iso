@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo reflector -c 'United States' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.d/mirrorlist

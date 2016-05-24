@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Avahi VNC Server Browser
+Comment=Browse for Zeroconf-enabled VNC Servers
+Icon=network-wired
+Exec=/usr/bin/bvnc
+NoDisplay=true
+Categories=GNOME;Network;
+StartupNotify=false
+Terminal=false

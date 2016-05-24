@@ -1,0 +1,9 @@
+Keyboard Shorcuts:
+
+CTRL+ALT+t = xfce4-terminal
+CTRL+ALT+n = leafpad # a basic text editor
+ALT+h = thunar # the file manager
+SHIFT+mouse wheel(up, down) = zoom desktop
+SUPER_L = Menu
+ALT+F4 = Logout Dialog
+CTRL+Backspace = Quick Logout

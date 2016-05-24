@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Qt V4L2 test Utility
+Comment=Allow testing Video4Linux devices
+Icon=qv4l2
+Exec=qv4l2
+NoDisplay=true
+Categories=AudioVideo;
+Keywords=video;grabber;V4L;
+StartupNotify=false
+Terminal=false

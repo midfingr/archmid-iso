@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Install ArchMid
+Comment=Application Menu
+Exec=sudo xfce4-terminal -e /abif-master/abif
+Icon=distributor-logo-arch-linux
+Type=Application
+Categories=GNOME;GTK;Utility;
+StartupNotify=false
+NoDisplay=false

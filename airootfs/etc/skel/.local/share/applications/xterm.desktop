@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=XTerm
+Comment=standard terminal emulator for the X window system
+Icon=xterm-color_48x48
+Exec=xterm
+NoDisplay=true
+Categories=System;TerminalEmulator;
+StartupNotify=false
+Terminal=false

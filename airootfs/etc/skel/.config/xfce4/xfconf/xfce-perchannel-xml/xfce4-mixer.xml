@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-mixer" version="1.0">
+  <property name="sound-card" type="string" value="HDAATISBAlsamixer"/>
+  <property name="sound-cards" type="empty">
+    <property name="HDAATISBAlsamixer" type="array">
+      <value type="string" value="Master"/>
+      <value type="string" value="PCM"/>
+      <value type="string" value="Line-in"/>
+      <value type="string" value="Line Boost"/>
+      <value type="string" value="Capture"/>
+      <value type="string" value="Rear Mic"/>
+    </property>
+  </property>
+  <property name="window-height" type="int" value="671"/>
+  <property name="window-width" type="int" value="1065"/>
+  <property name="active-card" type="string" value="HDAATISBAlsamixer"/>
+  <property name="volume-step-size" type="uint" value="5"/>
+</channel>
