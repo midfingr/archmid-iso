@@ -18,8 +18,4 @@ repo-add customrepo.db.tar.gz *.tar.xz
 
 Be sure to edit/build as root or sudo
 
-<<<<<<< HEAD
 Feel free to edit, add or remove packages, etc. as you see fit.
-=======
-Feel free to edit, add or remove packages, etc. as you see fit.
->>>>>>> c9d6834cd1bc356c3071143f64b087832c779c3a
