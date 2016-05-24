@@ -7,5 +7,5 @@ How to use:
 - Extract the archive (if you downloaded the zip file) into your home folder
 - Move the customrepo folder to your home folder
 
-Change the permission of the archmid-iso to root:
-sudo chown -R root:root archmid-iso
+Change the permission of the archmid-iso to root
+i.e. sudo chown -R root:root archmid-iso
