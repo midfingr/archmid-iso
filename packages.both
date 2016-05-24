@@ -34,6 +34,7 @@ xf86-video-trident
 
 ##networking
 networkmanager
+networkmanager-dispatcher-ntpd
 network-manager-applet
 wireless_tools
 wpa_supplicant
@@ -45,7 +46,9 @@ xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-mouse
 laptop-detect
-lxdm
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
 mlocate
 reflector
 
