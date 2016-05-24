@@ -1485,7 +1485,7 @@ install_root(){
   [[ -e /tmp/01-keyboard-layout.conf ]] && cp -f /tmp/01-keyboard-layout.conf ${MOUNTPOINT}/etc/X11/xorg.conf.d/$(ls ${MOUNTPOINT}/etc/X11/xorg.conf.d/ | grep "keyboard") 2>>/tmp/.errlog
   
   # Display Manager
-  arch_chroot "systemctl enable lxdm -f"  
+  arch_chroot "systemctl enable lightdm -f"  
 }
 
 # Install Bootloader
@@ -1875,7 +1875,7 @@ edit_configs() {
    "7" "/etc/fstab" \
    "8" "/etc/crypttab" \
    "9" "grub/syslinux/systemd-boot" \
-   "10" "/etc/lxdm/lxdm.conf" \
+   "10" "/etc/lightdm/lightdm-gtk-greeter.conf" \
    "11" "/etc/pacman.conf" \
    "12" "$_Back" 2>${ANSWER}
 	
@@ -1907,7 +1907,7 @@ edit_configs() {
 				done
 			 fi
             ;;
-        "10") [[ -e ${MOUNTPOINT}/etc/lxdm/lxdm.conf ]] && FILE="${MOUNTPOINT}/etc/lxdm/lxdm.conf" 
+        "10") [[ -e ${MOUNTPOINT}/etc/lightdm/lightdm-gtk-greeter.conf ]] && FILE="${MOUNTPOINT}/etc/lightdm/lightdm-gtk-greeter.conf" 
             ;;
         "11") [[ -e ${MOUNTPOINT}/etc/pacman.conf ]] && FILE="${MOUNTPOINT}/etc/pacman.conf"
 			;;
