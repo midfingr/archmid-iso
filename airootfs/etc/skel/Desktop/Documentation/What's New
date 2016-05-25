@@ -1,10 +1,9 @@
 Arch Linux Midfingr Edition
 
-ISO refresh March 2016
+ISO refresh May 2016
 
-- xfce4 desktop environment
-- menu-driven installer by Carl Duff updated to v2.2
-- removed gnome application integration
-- removed pacmac-aur
-- expanded Documentation to include Virtualbox services when running as Guest
-- chromium avatars for use with mugshot
+- lightdm replaces lxdm (login manager) + settings manager to customize the login screen
+- volumeicon replaces volwheel
+- included the package networkmanager-dispatcher-ntpd; sync time to your location up startup
+- new feature: enable/disable compton; may help with screen tearing
+- removed the pacman-init service (adds 3+ seconds to boot time), thus PACMAN NOT WORKING steps are necessary
