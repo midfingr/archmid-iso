@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill compton
+notify-send -t 800 'Compton Disabled' --icon=video-display
+xfwm4 --compositor=on --replace &

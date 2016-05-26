@@ -88,6 +88,7 @@ mugshot
 profile-cleaner
 xame
 yaourt
+package-query-git
 
 ## GUI configuration
 xfce4
