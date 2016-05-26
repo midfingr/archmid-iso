@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Encoding=UTF-8
+Name=Compton
+Comment=Enable Compton
+Exec=/usr/bin/comp_on
+Icon=/usr/share/icons/UltraFlatIcons/apps/scalable/video-display.svg
+StartupNotify=false
+Terminal=false
+Categories=Utility;

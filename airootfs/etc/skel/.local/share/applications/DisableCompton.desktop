@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Encoding=UTF-8
+Name=Disable Compton
+Comment=Xfwm4
+Exec=/usr/bin/comp_off
+Icon=/usr/share/icons/UltraFlatIcons/apps/scalable/video-display.svg
+StartupNotify=false
+Terminal=false
+Categories=Utility;
