@@ -1,5 +1,7 @@
 # archmid-iso
 
+YouTube Video: https://youtu.be/i3-Ys7th4Pw
+
 This is the 64-bit source for the archmid iso.
 
 How to use:
